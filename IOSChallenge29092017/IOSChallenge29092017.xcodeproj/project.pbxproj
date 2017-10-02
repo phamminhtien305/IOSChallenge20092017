@@ -15,6 +15,9 @@
 		E28238921F7DEB5D00E9B6DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28238911F7DEB5D00E9B6DF /* main.m */; };
 		E282389F1F7DF48F00E9B6DF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E282389E1F7DF48F00E9B6DF /* LoginViewController.m */; };
 		E28238A11F7DF4BC00E9B6DF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28238A01F7DF4BC00E9B6DF /* Login.storyboard */; };
+		E28238A41F7E251700E9B6DF /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E28238A31F7E24A800E9B6DF /* bg.png */; };
+		E28238AA1F81ED8400E9B6DF /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28238A91F81ED8400E9B6DF /* RegisterViewController.m */; };
+		E28238AE1F821B1000E9B6DF /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = E28238AD1F821B1000E9B6DF /* NSString+Validation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		E282389D1F7DF48F00E9B6DF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		E282389E1F7DF48F00E9B6DF /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E28238A01F7DF4BC00E9B6DF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E28238A31F7E24A800E9B6DF /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E28238A71F81E5E400E9B6DF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E28238A81F81ED8400E9B6DF /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E28238A91F81ED8400E9B6DF /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E28238AC1F821B1000E9B6DF /* NSString+Validation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		E28238AD1F821B1000E9B6DF /* NSString+Validation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,7 @@
 				E28238801F7DEB5D00E9B6DF /* AppDelegate.m */,
 				E282389A1F7DF41B00E9B6DF /* Main */,
 				E28238991F7DF41100E9B6DF /* Login */,
+				E28238AB1F821AAD00E9B6DF /* Library */,
 				E28238981F7DEEC000E9B6DF /* Resources */,
 				E282388B1F7DEB5D00E9B6DF /* Assets.xcassets */,
 				E282388D1F7DEB5D00E9B6DF /* LaunchScreen.storyboard */,
@@ -112,7 +122,10 @@
 			children = (
 				E282389D1F7DF48F00E9B6DF /* LoginViewController.h */,
 				E282389E1F7DF48F00E9B6DF /* LoginViewController.m */,
+				E28238A81F81ED8400E9B6DF /* RegisterViewController.h */,
+				E28238A91F81ED8400E9B6DF /* RegisterViewController.m */,
 				E28238A01F7DF4BC00E9B6DF /* Login.storyboard */,
+				E28238A71F81E5E400E9B6DF /* 3.png */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -127,6 +140,7 @@
 		E282389B1F7DF43400E9B6DF /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E28238A31F7E24A800E9B6DF /* bg.png */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -136,6 +150,15 @@
 			children = (
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		E28238AB1F821AAD00E9B6DF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E28238AC1F821B1000E9B6DF /* NSString+Validation.h */,
+				E28238AD1F821B1000E9B6DF /* NSString+Validation.m */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28238A41F7E251700E9B6DF /* bg.png in Resources */,
 				E282388F1F7DEB5D00E9B6DF /* LaunchScreen.storyboard in Resources */,
 				E282388C1F7DEB5D00E9B6DF /* Assets.xcassets in Resources */,
 				E28238A11F7DF4BC00E9B6DF /* Login.storyboard in Resources */,
@@ -263,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28238AE1F821B1000E9B6DF /* NSString+Validation.m in Sources */,
+				E28238AA1F81ED8400E9B6DF /* RegisterViewController.m in Sources */,
 				E282389F1F7DF48F00E9B6DF /* LoginViewController.m in Sources */,
 				E282388A1F7DEB5D00E9B6DF /* IOSChallenge29092017.xcdatamodeld in Sources */,
 				E28238921F7DEB5D00E9B6DF /* main.m in Sources */,

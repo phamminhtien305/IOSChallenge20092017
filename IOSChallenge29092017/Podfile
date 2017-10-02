@@ -8,4 +8,5 @@ target 'IOSChallenge29092017' do
 
   # Pods for IOSChallenge29092017
   pod 'AFNetworking', '~> 3.0'
+  pod 'MBProgressHUD'
 end
